@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Montserrat');
 
+.red{
+    background-color: red;
+}
 
 * {
     margin:0 ! important;
@@ -45,9 +48,11 @@ button{
 
 .box-1-img{
     background-image: url(/img/pexels-photo-730896.png);
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
+    background-size: cover;
+
+
 
 }
 
