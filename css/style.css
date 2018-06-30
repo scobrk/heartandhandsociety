@@ -1,18 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Montserrat');
 
 
-.red{
-    background-color: red;
-}
-
-.grey{
-    background-color: #333;
-}
-
-.green{
-    background-color: green;
-}
-
 * {
     margin:0 ! important;
     padding:0 ! important;
@@ -22,19 +10,34 @@ body{
     background-color: black;
 }
 
+p{
+    color: #D1D1D1;
+    opacity: 70%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    line-height: 1.8rem;
+}
+
+h1{
+    font-size: 72px;
+}
+
+
 .block-1{
-    display: grid;
     height: 95vh;
     width: 100%;
     background-color: black;
 }
 
-.block-1 h1 {
+.orange-text {
     color: #C89331;
-    size: 72px;
     font-family: 'Open Sans', sans-serif;
 }
 
+.grey-text{
+    color: #D1D1D1;
+    font-family: 'Open Sans', sans-serif; 
+}
 
 .box-1-img{
     background-image: url(/img/pexels-photo-730896.png);
@@ -42,5 +45,6 @@ body{
     background-position: center;
     overflow: hidden;
     background-repeat: no-repeat;
-    min-height: 100vh
+    min-height: 40vh;
 }
+
