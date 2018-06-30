@@ -22,9 +22,13 @@ h1{
     font-size: 72px;
 }
 
+button{
+    background-color: transparent;
+    border: transparent;
+}
 
 .block-1{
-    height: 95vh;
+    height: 100vh;
     width: 100%;
     background-color: black;
 }
@@ -41,10 +45,26 @@ h1{
 
 .box-1-img{
     background-image: url(/img/pexels-photo-730896.png);
-    background-size: cover;
-    background-position: center;
-    overflow: hidden;
+    background-size: contain;
     background-repeat: no-repeat;
-    min-height: 40vh;
+    background-position: left bottom;
+
 }
 
+.box-1-arrow{
+    background-image: url(/img/Group_3.png);
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat; 
+    height: 100px;
+    width: auto;
+}
+
+.custom-button-1{
+    background-image: url(/img/button-1.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+
+}
