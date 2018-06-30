@@ -27,7 +27,13 @@ h1{
 
 button{
     background-color: transparent;
-    border: transparent;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+
+button:focus{
+    outline: none;
 }
 
 .block-1{
