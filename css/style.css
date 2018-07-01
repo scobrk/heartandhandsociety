@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:800|Montserrat');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:800,300|Montserrat:200');
 
 .red{
     background-color: red;
@@ -18,7 +18,7 @@ p{
     opacity: 70%;
     font-family: 'Montserrat', sans-serif;
     font-size: 14px;
-    line-height: 1.8rem;
+    line-height: 1.6rem;
 }
 
 h1{
@@ -46,11 +46,31 @@ button:focus{
 .orange-text {
     color: #C89331;
     font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
 }
+
+.orange-text-p {
+    color: #C89331;
+    font-family: 'Montserrat', sans-serif;
+}
+
 
 .grey-text{
     color: #D1D1D1;
     font-family: 'Open Sans', sans-serif; 
+    font-weight: 800;
+
+}
+.dark-grey-text{
+    color: #333333;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
+}
+
+.grey-text-p{
+    color: #D1D1D1;
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 300;
 }
 
 .box-1-img{
@@ -91,4 +111,34 @@ button:focus{
 
 .tick{
     object-fit: contain;
+}
+
+.cross{
+    object-fit: contain;
+    background-color: transparent;
+}
+
+.box-2-arrow{
+    background-image: url(/img/downarrow-2.svg);
+    background-size: contain;
+    background-position: center;
+    overflow: hidden;
+    background-repeat: no-repeat; 
+    height: 100px;
+    width: auto;
+}
+
+.custom-button-2{
+    background-image: url(/img/donate-button.svg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-content: center;
+    max-width: 300px;
+    max-height: auto;
+
+}
+
+.hero-divider{
+    background: #000000;
+    opacity: 0.8;
 }
