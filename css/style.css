@@ -165,5 +165,18 @@ button:focus{
 }
 
 .icon-bar{
-transition: transorm(1.15);
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+
+.icon-bar:hover{
+    transform: scale(1.15);  
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
