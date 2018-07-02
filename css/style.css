@@ -143,3 +143,23 @@ button:focus{
     opacity: 0.8;
 }
 
+.box-3-img{
+    background-image: url(/img/pexels-photo-751173.jpeg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    box-shadow: 0px 0px 0px 4000px rgba(20, 22, 25, 0.5) inset;
+    min-height: 100vh;
+}
+
+.filler-row-3{
+    min-height: 150px;
+}
+
+.p-text-size-3{
+    max-width: 600px;
+}
+
+.btn-space{
+    padding: 15px;
+}
