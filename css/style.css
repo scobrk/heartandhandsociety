@@ -163,3 +163,7 @@ button:focus{
 .btn-space{
     padding: 15px;
 }
+
+.icon-bar{
+transition: transorm(1.15);
+}
