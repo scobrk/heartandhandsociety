@@ -10,7 +10,7 @@
 }
 
 body{
-    background-color: black;
+    background-color:rgba(20, 20, 26, 1);
 }
 
 p{
@@ -195,5 +195,11 @@ button:focus{
 }
 
 @media (max-width: 450px){
+
+}
+
+.box-5-img{
+    background-color:rgba(20, 20, 26, 1);
+    min-height: 80vh;
 
 }
