@@ -131,12 +131,22 @@ h4{
     font-size: 60px !important;
 }
 
+.p-4{
+    text-align: right;
+}
+
 @media (max-width: 768px){
     h4{    
         font-size: 1.9rem !important;
     }
-}
+    .p-4{
+        text-align: center;
+    }
+    p{
+        text-align: center !important;
+    }
 
+}
 .cross{
     object-fit: contain;
     background-color: transparent;
@@ -220,7 +230,7 @@ h4{
 }
 
 .box-4-img{
-    background-image: url(/img/animal-animal-photography-cat-1108598.jpg);
+    background: url(/img/animal-animal-photography-cat-1108598.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
