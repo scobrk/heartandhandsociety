@@ -80,7 +80,7 @@ button:focus{
 }
 
 .box-1-img{
-    background-image: url("/img/animal-photography-animals-bed-794083.jpg");
+    background-image: url(/img/animal-photography-animals-bed-794083.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
