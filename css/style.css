@@ -80,7 +80,7 @@ button:focus{
 }
 
 .box-1-img{
-    background-image: url(img/animal-photography-animals-bed-794083.jpg);
+    background-image: url(/img/animal-photography-animals-bed-794083.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -89,7 +89,7 @@ button:focus{
 }
 
 .box-2-img{
-    background-image: url(img/custom-2.png);
+    background-image: url(/img/custom-2.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -98,7 +98,7 @@ button:focus{
 }
 
 .box-1-arrow{
-    background-image: url(img/Group_3.png);
+    background-image: url(/img/Group_3.png);
     background-size: contain;
     background-position: center;
     overflow: hidden;
@@ -108,7 +108,7 @@ button:focus{
 }
 
 .custom-button-1{
-    background-image: url(img/button-1.svg);
+    background-image: url(/img/button-1.svg);
     background-size: cover;
     background-repeat: no-repeat;
     align-content: center;
