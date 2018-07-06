@@ -2,6 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:800,300|Montserrat:200');
 
+
 .red{
     background-color: red;
 }
@@ -80,7 +81,7 @@ button:focus{
 }
 
 .box-1-img{
-    background-image: url(../img/animal-photography-animals-bed-794083.jpg);
+    background-image: url(heartandhandsociety/img/animal-photography-animals-bed-794083.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
