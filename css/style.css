@@ -223,6 +223,8 @@ h4{
 
 .icon-bar:hover{
     transform: scale(1.15);  
+    -webkit-transform: scale(1.15);
+
     transition: 200ms;
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
@@ -273,6 +275,7 @@ h4{
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
     transform: scale(1.15);
+    -webkit-transform: scale(1.15);
 }
 
 .box-6-img{
