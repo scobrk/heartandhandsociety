@@ -259,7 +259,9 @@ h4{
     background-size: contain;
     background-repeat: no-repeat;
     align-content: center;
-    border-radius: 50%;
+    border-radius: 50%;     
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
     width: 230px    ;
     height: auto;
     transition: 200ms;
@@ -310,3 +312,12 @@ h4{
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
 }
+
+
+
+
+
+
+
+/* Forces overlay */
+#loadOverlay{display: none;}
