@@ -28,6 +28,7 @@ p{
 
 
 
+
 h1{
     font-size: 72px;
 }
@@ -96,6 +97,7 @@ button:focus{
     background-size: cover;
     box-shadow: 0px 0px 0px 4000px rgba(3, 3, 3, 0.85) inset;
     min-height: 100vh;
+    
 }
 
 .box-1-arrow{
@@ -199,6 +201,7 @@ h4{
     background-size: cover;
     box-shadow: 0px 0px 0px 4000px rgba(20, 22, 25, 0.5) inset;
     min-height: 100vh;
+    
 }
 
 .filler-row-3{
@@ -274,8 +277,7 @@ h4{
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
-    transform: scale(1.15);
-    -webkit-transform: -webkit-scale(1.15);
+
 }
 
 .box-6-img{
