@@ -16,6 +16,10 @@ body{
     background-color:rgba(20, 20, 26, 1);
 }
 
+.position-fixed{
+    position: fixed !important;
+}
+
 p{
     color: #D1D1D1;
     opacity: 70%;
@@ -26,7 +30,14 @@ p{
 
 }
 
+.light-nav-bg{
+    background-color: transparent;
+}
 
+.navbar-toggler {
+    border: none;
+    outline: none;
+  }
 
 
 h1{
@@ -62,13 +73,37 @@ button:focus{
     font-family: 'Montserrat', sans-serif;
 }
 
+.orange-text-nav {
+    color: #C89331 !important;
+    font-family: 'Open Sans', sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
 
 .grey-text{
     color: #D1D1D1;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 800;
-
 }
+
+.grey-icon{
+    color: #D1D1D1;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover{
+    color: #C89331 !important;
+}
+.grey-text-nav{
+    color: #D1D1D1 !important;
+    font-family: 'Montserrat', sans-serif !important; 
+}
+
 .dark-grey-text{
     color: #333333;
     font-family: 'Open Sans', sans-serif; 
@@ -79,6 +114,10 @@ button:focus{
     color: #D1D1D1;
     font-family: 'Open Sans', sans-serif; 
     font-weight: 300;
+}
+
+.dark-bg{
+    background-color: rgba(20, 20, 26, 1);
 }
 
 .box-1-img{
@@ -319,5 +358,3 @@ h4{
 
 
 
-/* Forces overlay */
-#loadOverlay{display: none;}
