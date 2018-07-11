@@ -96,6 +96,8 @@ a{
     color: inherit;
 }
 
+
+
 a:hover{
     color: #C89331 !important;
 }
@@ -273,6 +275,11 @@ h4{
     cursor: pointer;
 }
 
+.icon-bar-nav{
+    height: 20px !important;
+    width: auto !important;
+}
+
 .box-4-img{
     background: url(../img/animal-animal-photography-cat-1108598.jpg);
     background-repeat: no-repeat;
@@ -382,5 +389,7 @@ h4{
     }
 
 }
+
+
 
 
