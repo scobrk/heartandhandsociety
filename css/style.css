@@ -390,6 +390,11 @@ h4{
 
 }
 
+@media (max-width: 705){
+    #nav-social{
+        display: none !important;
+    }
+}
 
 
 
