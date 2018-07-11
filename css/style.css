@@ -393,9 +393,12 @@ h4{
 @media (max-width: 575px){
     .hide-when-narrow{
         display: none !important;
+        
     }
     .show-when-narrow{
-        display: inherit;
+        display: inline-block !important;
+        margin-left: 0 !important;
+        
     }
 
 }
