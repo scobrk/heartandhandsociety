@@ -94,12 +94,22 @@ button:focus{
 a{
     text-decoration: none;
     color: inherit;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 
 
 
 a:hover{
     color: #C89331 !important;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    cursor: pointer;
 }
 .grey-text-nav{
     color: #D1D1D1 !important;
@@ -397,7 +407,6 @@ h4{
     }
     .show-when-narrow{
         display: inline-block !important;
-        margin-left: 0 !important;
         
     }
 
