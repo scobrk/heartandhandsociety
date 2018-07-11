@@ -390,10 +390,21 @@ h4{
 
 }
 
-@media (max-width: 705){
-    #nav-social{
+@media (max-width: 575px){
+    .hide-when-narrow{
         display: none !important;
     }
+    .show-when-narrow{
+        display: inherit;
+    }
+
+}
+
+@media (min-width: 575px){
+    .hide-when-wide{
+        display: none !important;
+    }
+
 }
 
 

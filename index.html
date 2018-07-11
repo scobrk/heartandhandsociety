@@ -20,43 +20,67 @@
 
     <nav class="navbar fixed-top navbar-dark light-nav-bg navbar-expand-sm">
         <div class="container-fluid dark-bg">
-            <a href="#top" class="navbar-brand orange-text-nav p-2 ml-2" id="nav-title"> Heart and Hand Society </a>
+            <a href="#top" class="navbar-brand orange-text-nav p-2 ml-2" id="nav-title">
+                <i class="fas fa-paw fa-1x"></i>
+                <span class="hide-when-narrow ml-2"> Heart and Hand Society </span>
+            </a>
+            <!-- shows socials next to paw icon when in mobile and smaller screens Ï-->
+            <ul class="navbar-nav mr-5 list-inline show-when-narrow hide-when-wide">
+
+                <li class="list-inline-item">
+                    <a href="#">
+                        <i class="fab fa-facebook fa-2x pr-3" s></i>
+                    </a>
+                </li>
+                <li class="list-inline-item" id="nav-social">
+                    <a href="#">
+                        <i class="fab fa-instagram fa-2x pr-3"></i>
+                    </a>
+                </li>
+                <li class="list-inline-item" id="nav-social">
+                    <a href="#">
+                        <i class="fas fa-envelope fa-2x pr-3"></i>
+                    </a>
+                </li>
+            </ul>
+
+<!-- Navbar dropdown functionality -->
             <button class="navbar-toggler mr-3" data-toggle="collapse" data-target="#navbar-menu">
                 <span class="navbar-toggler-icon grey-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbar-menu">
                 <ul class="navbar-nav grey-text-nav mr-auto pr-4">
                     <li class="nav-item">
-                        <a href="#about" class="nav-link ml-3 mt-3"> About</a>
+                        <a href="#about" class="nav-link p-2"> About</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#help" class="nav-link ml-3 mt-3"> Help</a>
+                        <a href="#help" class="nav-link p-2"> Help</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#cats" class="nav-link ml-3 mt-3">Cats</a>
+                        <a href="#cats" class="nav-link p-2">Cats</a>
                     </li>
                     <li class="nav-item">
-                        <a href="#contact" class="nav-link ml-3 mt-3 mb-3">Contact</a>
+                        <a href="#contact" class="nav-link p-2">Contact</a>
                     </li>
-</ul>
-<ul class="navbar-nav mr-5 d-flex">
-
-                        <li>
-                            <a href="#">
-                                <i class="fab fa-facebook fa-2x pr-3" id="nav-social"></i>
-                            </a>
-                        </li>
-                        <li id="nav-social">
-                            <a href="#">
-                                <i class="fab fa-instagram fa-2x pr-3" id="nav-social"></i>
-                            </a>
-                        </li>
-                        <li id="nav-social">
-                            <a href="#">
-                                <i class="fas fa-envelope fa-2x pr-3" id="nav-social"></i>
-                            </a>
-                        </li>
-                    </ul>
+                </ul>
+                <!-- Socials in navbar on fullscreen, hidewhennarrow hides on responsiveness -->
+                <ul class="navbar-nav mr-5 d-flex hide-when-narrow">
+                    <li>
+                        <a href="#">
+                            <i class="fab fa-facebook fa-2x pr-3" s></i>
+                        </a>
+                    </li>
+                    <li id="nav-social">
+                        <a href="#">
+                            <i class="fab fa-instagram fa-2x pr-3"></i>
+                        </a>
+                    </li>
+                    <li id="nav-social">
+                        <a href="#">
+                            <i class="fas fa-envelope fa-2x pr-3"></i>
+                        </a>
+                    </li>
+                </ul>
 
             </div>
         </div>
