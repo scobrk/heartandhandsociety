@@ -133,9 +133,8 @@ a:hover{
 }
 
 .box-1-img{
-    background-image: url(../img/animal-photography-animals-bed-794083.jpg);
+    background-image: url(../img/topcat.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
     box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.6) inset;
 
@@ -152,13 +151,22 @@ a:hover{
 }
 
 .box-1-arrow{
-    background-image: url(../img/Group_3.png);
+    background-image: url(../img/icons/downarrow.png);
     background-size: contain;
-    background-position: center;
+    background-position: right;
     overflow: hidden;
     background-repeat: no-repeat; 
-    height: 100px;
+    min-height: 105px;
     width: auto;
+}
+
+.flip {
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
 }
 
 .custom-button-1{
@@ -408,6 +416,12 @@ h4{
     .show-when-narrow{
         display: inline-block !important;
         
+    }
+    .box-1-img{
+        background-image: none !important;
+    }
+    #first-text{
+        text-align: center !important;
     }
 
 }
