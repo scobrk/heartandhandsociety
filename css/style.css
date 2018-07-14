@@ -191,7 +191,7 @@ a:hover{
 }
 
 h4{
-    font-size: 60px !important;
+    font-size: 60px;
 }
 
 .p-4{
@@ -348,10 +348,10 @@ h4{
 }
 
 .box-6-img{
-    background-image: url(../img/box-6.png);
+    background-image: url(../img/changetheworld-2.png);
     background-repeat: no-repeat;
-    background-position: center;
     background-size: cover;
+    background-position: center;
     box-shadow: 0px 0px 0px 4000px rgba(20, 20, 26, 0.6) inset;
     min-height: 100vh;
 }
@@ -456,8 +456,49 @@ h4{
         box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.65) inset;
 
      }
- 
+}
 
+
+/* Call to action text and button  */
+
+@media (max-width: 1080px){
+    h4{
+        font-size: 50px !important;
+    }
+}
+@media (max-width: 900px){
+    h4{
+        font-size: 40px !important;
+    }
+}
+@media (max-width: 735px){
+    h4{
+        font-size: 32px !important;
+    }
+    .custom-button-3{
+        max-width: 250px !important;
+        max-height: auto !important;
+    }
+    #hero-text-6{
+        padding-top: 10vh !important;
+    }
+}
+@media (max-width: 595px){
+    h4{
+        font-size: 24px !important;
+    }
+    .custom-button-3{
+        max-width: 200px !important;
+        max-height: auto !important;
+    }
+    #hero-text-6{
+        padding-top: 15vh !important;
+    }
+}
+@media (max-width: 455px){
+    h4{
+        font-size: 20px !important;
+    }
 }
 
 
