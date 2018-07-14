@@ -170,10 +170,10 @@ a:hover{
 }
 
 .custom-button-1{
-    background-image: url(../img/button-1.svg);
-    background-size: cover;
-    background-repeat: no-repeat;
     align-content: center;
+    object-fit: contain !important;
+    overflow: hidden;
+
 
 }
 .custom-button-1:hover{
@@ -417,11 +417,19 @@ h4{
         display: inline-block !important;
         
     }
-    .box-1-img{
-        background-image: url(../img/mobile-container-1.png) !important;
-    }
+
+
     #first-text{
         text-align: center !important;
+        margin-left: 10px !important;
+        margin-right: 10px !important;
+        padding: 0 !important;
+    }
+    #second-container-h2{
+        padding-bottom: 50px !important;
+    }
+    #findout-container-1{
+       text-align: center !important;
     }
 
 }
@@ -432,6 +440,19 @@ h4{
     }
 
 }
+
+@media (max-width: 645px){
+    #findout-container-1{
+        text-align: center !important;
+     }
+ 
+
+}
+
+
+
+
+
 
 
 
