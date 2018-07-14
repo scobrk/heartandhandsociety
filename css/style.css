@@ -418,7 +418,7 @@ h4{
         
     }
     .box-1-img{
-        background-image: none !important;
+        background-image: url(../img/mobile-container-1.png) !important;
     }
     #first-text{
         text-align: center !important;
