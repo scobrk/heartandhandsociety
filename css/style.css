@@ -137,6 +137,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.6) inset;
+    min-height: 100vh;
 
 }
 
@@ -430,6 +431,9 @@ h4{
     }
     #findout-container-1{
        text-align: center !important;
+    }
+    .box-1-img{
+        background-image: url(../img/mobile-container-1.png);
     }
 
 }
