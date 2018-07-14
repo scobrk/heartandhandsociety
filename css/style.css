@@ -42,6 +42,13 @@ p{
 
 h1{
     font-size: 72px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 60px rgba(255,255,255,0.2);
+}
+
+h2{
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 60px rgba(255,255,255,0.2);
 }
 
 button{
@@ -192,6 +199,8 @@ a:hover{
 
 h4{
     font-size: 60px;
+    text-shadow: 2px 8px 6px rgba(0,0,0,0.2),
+                 0px -5px 60px rgba(255,255,255,0.2);
 }
 
 .p-4{
@@ -498,6 +507,11 @@ h4{
 @media (max-width: 455px){
     h4{
         font-size: 20px !important;
+    }
+}
+@media (max-width: 375px){
+    h4{
+        font-size: 16px !important;
     }
 }
 
