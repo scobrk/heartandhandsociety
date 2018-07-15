@@ -12,8 +12,21 @@
     padding:0 ! important;
 }
 
+*:focus {
+    outline: 0 !important;
+}
+
+input:focus{
+    outline: 0 none !important;
+}
+
 body{
     background-color:rgba(20, 20, 26, 1);
+}
+
+.smaller-text{
+    font-size: 10px !important;
+    opacity: 0.8 !important;
 }
 
 .position-fixed{
@@ -60,6 +73,7 @@ button{
 
 button:focus{
     outline: none;
+    border: none;
 }
 
 
@@ -467,6 +481,19 @@ h4{
      }
 }
 
+/* Newsletter signup styling */
+.news-btn{
+    background-color: #C89331;
+    padding: 10px !important;
+    min-height: 50px !important;
+    font-size: 18px !important;
+}
+
+.news-input{
+    min-width: 150px !important;
+    min-height: auto !important;
+}
+
 
 /* Call to action text and button  */
 
@@ -515,6 +542,9 @@ h4{
     }
 }
 
+.form-control:focus{
+    outline: none 0 !important;
+}
 
 
 
