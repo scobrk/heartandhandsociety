@@ -1,4 +1,1 @@
-$(window).load(function() {
-  // When the page has loaded
-  $("body").fadeIn(2000);
-});
+window.onload = function () { document.body.className -= "fade-out"; }

@@ -22,6 +22,13 @@ input:focus{
 
 body{
     background-color:rgba(20, 20, 26, 1);
+    opacity: 1;
+    transition: 1s opacity;
+}
+
+body.fade-out {
+    opacity: 0;
+    transition: none;
 }
 
 .smaller-text{
