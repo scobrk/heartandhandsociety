@@ -144,7 +144,7 @@ button:focus{
 }
 
 a{
-    text-decoration: none;
+    text-decoration: none !important;
     color: inherit;
     transition: 200ms;
     transition-timing-function: ease-in-out;
@@ -339,6 +339,8 @@ h4{
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
+    background-color: transparent !important;
+    text-decoration: none !important;
 }
 
 
@@ -350,6 +352,9 @@ h4{
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
+    color: none !important;
+    text-decoration: none !important;
+
 }
 
 .icon-bar-nav{
@@ -400,7 +405,6 @@ h4{
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
-
 }
 
 .box-6-img{
@@ -422,6 +426,7 @@ h4{
     -webkit-transition-timing-function: ease-in-out;
     cursor: pointer;
 }
+
 .custom-button-3:hover{
     filter: saturate(29%);
     align-content: center;
