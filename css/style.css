@@ -591,6 +591,20 @@ h4{
 
 }
 
+.donate-button{
+    max-width: 350px !important;
+    height: auto;
+}
+
+.donate-button:hover{
+    max-width: 350px !important;
+    height: auto;
+    transform: scale(1.2);
+}
+
+svg:hover{
+    fill: #C89331;
+}
 
 
 
