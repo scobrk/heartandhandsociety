@@ -592,19 +592,17 @@ h4{
 }
 
 .donate-button{
-    max-width: 350px !important;
+    max-width: 150px !important;
     height: auto;
 }
 
 .donate-button:hover{
-    max-width: 350px !important;
+    max-width: 150px !important;
     height: auto;
-    transform: scale(1.2);
+    background-image: url(../img/donafter.png);
 }
 
-svg:hover{
-    fill: #C89331;
-}
+
 
 
 
