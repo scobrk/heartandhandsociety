@@ -591,15 +591,10 @@ h4{
 }
 
 .donate-button{
-    max-width: 150px !important;
+    max-width: 300px !important;
     height: auto;
 }
 
-.donate-button:hover{
-    max-width: 150px !important;
-    height: auto;
-    background-image: url(../img/donafter.png);
-}
 
 
 
