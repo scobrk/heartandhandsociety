@@ -428,7 +428,6 @@ h4{
 }
 
 .custom-button-3:hover{
-    filter: saturate(29%);
     align-content: center;
     max-width: 300px;
     max-height: auto;
