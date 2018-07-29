@@ -365,11 +365,13 @@ h4{
 .box-4-img{
     background: url(../img/animal-animal-photography-cat-1108598.jpg);
     background-repeat: no-repeat;
-    background-position: center;
+    background-position:  center;
     background-size: cover;
     box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.3) inset;
     min-height: 80vh;
     background-attachment: fixed;
+    background-color:rgba(20, 20, 26, 1);
+
 
 }
 
@@ -511,7 +513,7 @@ h4{
         text-align: center !important;
      }
      #text-container-3{
-         text-align: center !important;
+         text-align: justify !important;
      }
      .box-4-img{
         box-shadow: 0px 0px 0px 4000px rgba(0, 0, 0, 0.65) inset;
@@ -595,6 +597,34 @@ h4{
     height: auto;
 }
 
+/* Button hover template */
+
+.btn-orange{
+    background-color: transparent !important;
+    font-family: "Open Sans" !important;
+    text-transform: uppercase !important;  
+    border-color: #C89331 !important;
+    border-radius: 2% !important;
+    border-width: 5px !important;
+    color: #C89331 !important;
+    font-weight: 800 !important;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+}
+
+.btn-orange:hover{
+    background-color: #C89331 !important;
+    color: rgba(20, 20, 26, 1) !important;
+    transition: 200ms;
+    transition-timing-function: ease-in-out;
+    -webkit-transition: 200ms;
+    -webkit-transition-timing-function: ease-in-out;
+    cursor: pointer;
+    text-decoration: none !important;
+    
+}
 
 
 
