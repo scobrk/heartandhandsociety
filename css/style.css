@@ -612,7 +612,7 @@ h4{
     transition-timing-function: ease-in-out;
     -webkit-transition: 200ms;
     -webkit-transition-timing-function: ease-in-out;
-    outline: 5px solid #C89331 !important;
+    outline: 4px solid #C89331 !important;
 
 }
 
@@ -631,7 +631,7 @@ h4{
 
 .btn-orange:focus{
     border: #C89331 !important;
-    outline: 5px solid #C89331 !important;
+    outline: 4px solid #C89331 !important;
 }
 
 
