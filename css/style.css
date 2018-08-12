@@ -256,6 +256,30 @@ h4 {
     }
 }
 
+@media (min-width: 1920px) {
+    #first-text {
+        text-align: center !important;
+        margin-left: 50% !important;
+        margin-right: 10px !important;
+        margin-top: 400px !important;
+        padding: 0 !important;
+    }
+    #first-text-p{
+        margin-left: 25%% !important;
+        margin-right: 10px !important;
+        margin-top: 10px !important;
+        padding: 0 !important;
+    }
+    #align-center{
+        text-align: center !important;
+    }
+    #first-text-button {
+        text-align: center !important;  
+    }
+
+}
+
+
 .cross {
     object-fit: contain;
     background-color: transparent;
@@ -357,7 +381,6 @@ h4 {
     background-color: rgba(20, 20, 26, 1);
 }
 
-@media (max-width: 450px) {}
 
 .box-5-img {
     background-color: rgba(20, 20, 26, 0.2);
